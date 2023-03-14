@@ -1,0 +1,20 @@
+.container{
+  display:flex;
+  justify-content:space-between;
+  margin:10px 40px;
+  flex-grow:1
+}
+.title{
+  font-size:32px;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.person-icon{
+  display:flex;
+  align-content:center
+}
+
+.person-icon li{
+  margin:20px
+}
