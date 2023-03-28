@@ -42,7 +42,7 @@ function DropperImage() {
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop })
   return (
-    <Container {...getRootProps()} borderNone={data != null ? "true" : "false"}>
+    <Container {...getRootProps()} borderNone={data != null ? "true" : "false"} style={{cursor:"pointer"}}>
       <input {...getInputProps()} />
       {data === null ? <AiFillPicture style={{ width: "30%", height: "100px", color: "#828282" }} /> : <Img src={data} />}
     </Container>

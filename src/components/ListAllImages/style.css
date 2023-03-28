@@ -37,10 +37,10 @@ Html {
   width: 100%;
   height: auto;
   margin-bottom: var(--gap-img);
-  transition: all .5s;
-    cursor: pointer;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.section__masonry-wrapper__item-img:hover{
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.section__masonry-wrapper__item-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
